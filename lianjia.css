@@ -64,8 +64,8 @@ a{
 .top_nav{
 
 }
-.top_nav>.wrapper::after{
-    content: " ";
+.top_nav > .wrapper::after{
+    content: "";
     display: block;
     clear: both;
 }
