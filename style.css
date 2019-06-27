@@ -1,0 +1,42 @@
+.left{
+    color:red;
+    font-size:30px;
+    border:1px solid navy;
+    width: 200px;
+    float: left;
+}
+.right{
+    color: rgb(158, 109, 45);
+    font-size: 30px;
+    float: left;
+    width:250px;
+}
+#t1{
+    color: blue;
+}
+
+#t2,.right{
+    border: 1px solid #ccc;
+    }
+
+h1#t1{
+    background-color:pink;
+}
+h2#t2
+{
+    background-color: palevioletred;
+}
+.header li{
+    color: rgb(139, 97, 44)
+}
+
+.header>ul{
+    border: 1px solid #ccc;
+}
+.header>ul>li:hover{
+    height: 100px;
+    background-color: pink;
+}
+ul::after{
+    content: "hello";
+}
