@@ -43,17 +43,22 @@ a{
     float: left;
     width: 50px;
     text-align: center;
+    font-size: 15px;
     line-height: 3em;
     cursor: pointer;
 }
 
-.fast_nav .nav>ul>li:hober{
-    color: aquamarine;
+.fast_nav .nav>ul>li:hover{
+    color: rgb(47, 182, 137);
 }
 
 .fast_nav .other{
     float: right;
+    font-size: 15px;
     line-height: 3em;
+}
+.fast_nav .other>span:hover{
+    color: rgb(47, 182, 137);
 }
 .fast_nav .other>span:nth-child(1){
     border-right: 1px solid  #333333;
@@ -73,17 +78,21 @@ a{
     line-height: 60px;
     float: left;
     font-size: 26px;
-    color: aquamarine
+    color: rgb(47, 182, 137)
 }
 .top_nav .nav{
     margin-left: 150px;
     float: left;
 }
+
 .top_nav .nav>li{
     float: left;
     width: 80px;
     text-align: center;
     line-height: 60px;
+}
+.top_nav .nav>li:hover{
+    color: rgb(47, 182, 137);
 }
 .top_nav .phone{
     line-height: 60px;
